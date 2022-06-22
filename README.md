@@ -2,7 +2,7 @@
      💻 <a href="https://leetcode.com/problemset/all/" alt="LeetCode problems page" target="_blank"> LeetCode </a>
 </h1>
 
-![](https://raw.githubusercontent.com/georgealan/java-programming-mooc-helsinki-university/main/assets/Java-Mooc-Helsinki.jpg)
+![](https://raw.githubusercontent.com/georgealan/leetcode-exercices/main/assets/LeetCode.jpg)
 
 <h3 align="center">
     🏆 LeetCode is the best platform to help you enhance your skills, expand your knowledge and prepare for technical interviews.
