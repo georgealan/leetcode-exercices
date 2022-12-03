@@ -1,6 +1,5 @@
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class SortCharactersByFrequency {
     public static void main(String[] args) {
@@ -13,13 +12,25 @@ public class SortCharactersByFrequency {
 
     static String frequencySort(String s) {
         Map<String, Integer> frequency = new HashMap<>();
+        Map<String, Integer> frequencyOrdered = new LinkedHashMap<>();
 
         for (String l : s.split("")) {
             frequency.put(l, frequency.getOrDefault(l, 0) + 1);
         }
-        System.out.println(frequency);
 
+        frequency.entrySet().stream()
+                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+                .forEachOrdered(x -> frequencyOrdered.put(x.getKey(), x.getValue()));
 
-        return "";
+        List<String> finalWord = new ArrayList<>();
+
+        for (String k : frequencyOrdered.keySet()) {
+            int count = frequencyOrdered.get(k);
+            while (count > 0) {
+                finalWord.add(k);
+                count--;
+            }
+        }
+        return String.join("", finalWord);
     }
 }
