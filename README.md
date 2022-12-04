@@ -55,11 +55,9 @@ In doing those exercises in LeetCode portal because I wanna become more clever i
 
 As I often use Java language a lot, I'll use Java more frequently for solve LeetCode problems, but on occasion I'll use other programming languages how JavaScript or C++.
 
-#### **Oracle Java**  ([Java JDK](https://www.oracle.com/java/technologies/downloads/))
+#### **Java**  ([Java JDK](https://www.oracle.com/java/technologies/downloads/))
 
-#### **C++**  ([C++](https://isocpp.org/))
-
-#### **JavaScript**  ([JavaScript](https://www.javascript.com/))
+#### **Golang**  ([Golang](https://go.dev/))
 
 
 ## 🦸 Author
