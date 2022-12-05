@@ -94,7 +94,8 @@ func main() {
 
 	//filePath := os.Args[1]
 	//filePath := "subtitle-fixer/Learn_Hypnosis_Direct.srt"
-	filePath := "subtitle-fixer/The.Simpsons.s17e01.srt"
+	//filePath := "subtitle-fixer/The.Simpsons.s17e01.srt"
+	filePath := "subtitle-fixer/Learn_Hypnosis_Direct_ascii.srt"
 	newFilePath := filePath + ".fixed"
 
 	file, err := os.Open(filePath)
@@ -112,9 +113,6 @@ func main() {
 
 	for {
 		subtitle, err := readOneSubtitle(scanner)
-		if err != nil {
-			panic(err)
-		}
 		if lastSubtitle != nil {
 			if subtitle != nil {
 				subtitle.text = strings.Trim(subtitle.text, "\n ")
@@ -143,9 +141,9 @@ func main() {
 		if subtitle == nil {
 			break
 		}
-		/*if err != nil {
+		if err != nil {
 			panic(err)
-		}*/
+		}
 		lastSubtitle = subtitle
 	}
 
