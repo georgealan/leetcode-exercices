@@ -21,6 +21,7 @@ public class RemoveDuplicatesFromSortedArray {
         }
 
         System.out.println(index);
+        System.out.println(Arrays.toString(nums));
         return index;
     }
 }
