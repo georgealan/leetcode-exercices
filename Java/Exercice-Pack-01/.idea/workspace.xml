@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LeafSimilarTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RangeSumOfBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/suportclasses/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/suportclasses/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/suportclasses/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/suportclasses/TreeNode.class" afterDir="false" />
-    </list>
+    <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +155,7 @@
       <workItem from="1670466412813" duration="1081000" />
       <workItem from="1670467506123" duration="84000" />
       <workItem from="1670467613461" duration="834000" />
-      <workItem from="1670468552380" duration="3318000" />
+      <workItem from="1670468552380" duration="3411000" />
     </task>
     <servers />
   </component>

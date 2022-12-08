@@ -13,6 +13,11 @@ import (
 	"time"
 )
 
+/*
+The bug was only a issue with the file decode format, this script verify if the file are
+in ASCII, the text need to be in ASCII to be accepted.
+*/
+
 type Subtitle struct {
 	idx      int
 	fromTime time.Duration
