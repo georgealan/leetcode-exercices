@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ListNodeExamples.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MiddleOfTheLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MinimumAverageDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OddEvenLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicatesFromSortedArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RomanToInteger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShuffleTheArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortCharactersByFrequency.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringHalvesAreAlike.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoStringsAreClose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/suportclasses/ListNode.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ndzx0z1u" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2ArrVIjEC25pN4uk2eJFvaQVxaa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Projects/Studies/Algorithms/leetcode-exercices/Java/Exercice-Pack-01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.19565217",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\main" />
+      <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ListNodeExamples">
+    <configuration name="ListNodeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListNodeExamples" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MiddleOfTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MiddleOfTheLinkedList" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddEvenLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OddEvenLinkedList" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicatesFromSortedArray" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="b" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ListNodeExamples" />
+        <item itemvalue="Application.OddEvenLinkedList" />
+        <item itemvalue="Application.MiddleOfTheLinkedList" />
+        <item itemvalue="Application.b" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\George\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="" />
+      <created>1655778570729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655778570729</updated>
+      <workItem from="1655778572427" duration="2786000" />
+      <workItem from="1655861806367" duration="436000" />
+      <workItem from="1655913504767" duration="113000" />
+      <workItem from="1661439765871" duration="29323000" />
+      <workItem from="1661538365328" duration="261000" />
+      <workItem from="1661544789062" duration="29000" />
+      <workItem from="1661557936919" duration="422000" />
+      <workItem from="1661633844274" duration="53000" />
+      <workItem from="1669063629163" duration="1223000" />
+      <workItem from="1669931339154" duration="7903000" />
+      <workItem from="1669985812246" duration="1018000" />
+      <workItem from="1669986915671" duration="1127000" />
+      <workItem from="1670006632609" duration="18841000" />
+      <workItem from="1670038070915" duration="5818000" />
+      <workItem from="1670174712388" duration="13504000" />
+      <workItem from="1670191474090" duration="4560000" />
+      <workItem from="1670196511473" duration="24000" />
+      <workItem from="1670196929379" duration="57000" />
+      <workItem from="1670244833707" duration="16316000" />
+      <workItem from="1670346694189" duration="19579000" />
+      <workItem from="1670464732554" duration="367000" />
+      <workItem from="1670465736601" duration="637000" />
+      <workItem from="1670466412813" duration="732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="11" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
