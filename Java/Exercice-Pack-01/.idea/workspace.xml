@@ -5,26 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ListNodeExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MiddleOfTheLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/MinimumAverageDifference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OddEvenLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicatesFromSortedArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveElement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RomanToInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ShuffleTheArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SortCharactersByFrequency.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StringHalvesAreAlike.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TwoStringsAreClose.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/suportclasses/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/suportclasses/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ListNodeExamples.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ListNodeExamples.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MiddleOfTheLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MiddleOfTheLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MinimumAverageDifference.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MinimumAverageDifference.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OddEvenLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OddEvenLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveDuplicatesFromSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveDuplicatesFromSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RomanToInteger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanToInteger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ShuffleTheArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShuffleTheArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SortCharactersByFrequency.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SortCharactersByFrequency.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/StringHalvesAreAlike.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StringHalvesAreAlike.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TwoStringsAreClose.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TwoStringsAreClose.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/suportclasses/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/suportclasses/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/suportclasses/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/suportclasses/TreeNode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,6 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Projects/Studies/Algorithms/leetcode-exercices/Java/Exercice-Pack-01",
     "node.js.detected.package.eslint": "true",
@@ -95,7 +91,7 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListNodeExamples">
+  <component name="RunManager" selected="Application.MiddleOfTheLinkedList">
     <configuration name="ListNodeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListNodeExamples" />
       <module name="Exercice-Pack-01" />
@@ -133,9 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MiddleOfTheLinkedList" />
         <item itemvalue="Application.ListNodeExamples" />
         <item itemvalue="Application.OddEvenLinkedList" />
-        <item itemvalue="Application.MiddleOfTheLinkedList" />
         <item itemvalue="Application.b" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
       </list>
@@ -174,7 +170,9 @@
       <workItem from="1670346694189" duration="19579000" />
       <workItem from="1670464732554" duration="367000" />
       <workItem from="1670465736601" duration="637000" />
-      <workItem from="1670466412813" duration="732000" />
+      <workItem from="1670466412813" duration="1081000" />
+      <workItem from="1670467506123" duration="84000" />
+      <workItem from="1670467613461" duration="751000" />
     </task>
     <servers />
   </component>
