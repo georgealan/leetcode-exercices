@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="" />
+    <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ShuffleTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ShuffleTheArray.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +68,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.19565217",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,23 +78,9 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RangeSumOfBST">
-    <configuration name="ListNodeExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListNodeExamples" />
-      <module name="Exercice-Pack-01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShuffleTheArray">
     <configuration name="MiddleOfTheLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiddleOfTheLinkedList" />
-      <module name="Exercice-Pack-01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OddEvenLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OddEvenLinkedList" />
       <module name="Exercice-Pack-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,8 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="b" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="b" />
+    <configuration name="RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveDuplicatesFromSortedArray" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveElement" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShuffleTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShuffleTheArray" />
       <module name="Exercice-Pack-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShuffleTheArray" />
+        <item itemvalue="Application.RemoveElement" />
+        <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application.RangeSumOfBST" />
         <item itemvalue="Application.MiddleOfTheLinkedList" />
-        <item itemvalue="Application.ListNodeExamples" />
-        <item itemvalue="Application.OddEvenLinkedList" />
-        <item itemvalue="Application.b" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +161,8 @@
       <workItem from="1670467506123" duration="84000" />
       <workItem from="1670467613461" duration="834000" />
       <workItem from="1670468552380" duration="3411000" />
+      <workItem from="1670520252631" duration="2396000" />
+      <workItem from="1670590276175" duration="26110000" />
     </task>
     <servers />
   </component>

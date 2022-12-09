@@ -4,24 +4,9 @@ import suportclasses.TreeNode;
 public class RangeSumOfBST {
     public static void main(String[] args) {
         TreeNode tree1 = new TreeNode(10);
-        tree1.left = new TreeNode(5);
-        tree1.left.right = new TreeNode(15);
-        tree1.left.right.left = new TreeNode(3);
-        tree1.left.right.left.right = new TreeNode(7);
-        tree1.left.right.left.right.right = new TreeNode();
-        tree1.left.right.left.right.right.right = new TreeNode(18);
-        //printList(tree1);
 
         TreeNode tree2 = new TreeNode(10);
-        tree2.left = new TreeNode(5);
-        tree2.left.right = new TreeNode(15);
-        tree2.left.right.left = new TreeNode(3);
-        tree2.left.right.left.right = new TreeNode(7);
-        tree2.left.right.left.right.right = new TreeNode(13);
-        tree2.left.right.left.right.right.right = new TreeNode(18);
-        tree2.left.right.left.right.right.right.left = new TreeNode(1);
-        tree2.left.right.left.right.right.right.left.right = new TreeNode();
-        tree2.left.right.left.right.right.right.left.right.right = new TreeNode(6);
+
 
         int result = rangeSumBST(tree1, 7, 15);
         System.out.println(result);
