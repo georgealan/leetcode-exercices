@@ -1,33 +1,29 @@
-import suportclasses.ListNode;
-import suportclasses.TreeNode;
-
+import suportclasses.Node;
+import suportclasses.Tree;
+import suportclasses.Tree.*;
 public class RangeSumOfBST {
     public static void main(String[] args) {
-        TreeNode tree1 = new TreeNode(10);
-
-        TreeNode tree2 = new TreeNode(10);
-
-
-        int result = rangeSumBST(tree1, 7, 15);
-        System.out.println(result);
-
-        int result2 = rangeSumBST(tree2, 6, 10);
-        System.out.println(result2);
+        Tree tree = new Tree();
+        Node root = new Node(10);
+        System.out.println("Binary Tree Example");
+        System.out.println("Building tree with root value " + root.left);
+        tree.insert(root, 2);
+        tree.insert(root, 4);
+        tree.insert(root, 8);
+        tree.insert(root, 6);
+        tree.insert(root, 7);
+        tree.insert(root, 3);
+        tree.insert(root, 9);
+        System.out.println("Traversing tree in order");
+        tree.traverseInOrder(root);
     }
-    public static int rangeSumBST(TreeNode root, int low, int high) {
+    /*public static int rangeSumBST(Tree root, int low, int high) {
         if(root == null)
             return 0;
-        if(root.val < low)
+        if(root.value < low)
             return rangeSumBST(root.right, low, high);
-        if(root.val > high)
+        if(root.value > high)
             return rangeSumBST(root.left, low, high);
-        return root.val + rangeSumBST(root.left, low, high) + rangeSumBST(root.right, low, high);
-    }
-
-    public static void printList(TreeNode treeNode) {
-        while (treeNode != null) {
-            System.out.print(treeNode.val + " ");
-        }
-        System.out.println();
-    }
+        return root.value + rangeSumBST(root.left, low, high) + rangeSumBST(root.right, low, high);
+    }*/
 }
