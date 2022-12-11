@@ -10,9 +10,9 @@ public class ValidParentheses {
         String input5 = "{[]}";
         String input6 = "[{[]}]"; // True, have to be close at same level.
         String input7 = "]{[]}["; // False, count per same chars won't work.
-        String input8 = "]{][}["; // False too
+        String input8 = "[}][{]"; // False too
 
-        boolean result1 = isValid(input4);
+        boolean result1 = isValidFirstAproach(input5);
         System.out.println(result1);
     }
 
@@ -23,12 +23,11 @@ public class ValidParentheses {
         return true;
     }
     public static boolean isValidFirstAproach(String s) {
+        // Split in group of two characters, ex: ["()", "[]", "{)"]
         String[] groupChars = s.split("(?<=\\G.{2})");
 
         for (String oneChar : groupChars) {
-            if (!oneChar.matches("(?:\\[])") &&
-                    !oneChar.matches("(?:\\{})") &&
-                    !oneChar.matches("(?:\\()\\)")) {
+            if (!oneChar.matches("((?:\\[])|(?:\\{})|(?:\\()\\))")) {
                 return false;
             }
         }

@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConcatenationOfArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ValidParentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/suportclasses/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/suportclasses/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeafSimilarTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeafSimilarTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RangeSumOfBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LeafSimilarTrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LeafSimilarTrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RangeSumOfBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RangeSumOfBST.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ShuffleTheArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ShuffleTheArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/suportclasses/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidParentheses.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +163,7 @@
       <workItem from="1670468552380" duration="3411000" />
       <workItem from="1670520252631" duration="2396000" />
       <workItem from="1670590276175" duration="26513000" />
-      <workItem from="1670683535662" duration="22293000" />
+      <workItem from="1670683535662" duration="26772000" />
     </task>
     <servers />
   </component>
