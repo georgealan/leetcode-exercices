@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HouseRobber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ValidParentheses.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,34 +50,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Projects/Studies/Algorithms/coding-exercices/arrays-practice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.19565217",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Studies/Algorithms/coding-exercices/arrays-practice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.19565217&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\main" />
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidParentheses">
+  <component name="RunManager" selected="Application.HouseRobber">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaseballGame" />
       <module name="Exercice-Pack-01" />
@@ -93,15 +92,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RangeSumOfBST" />
+    <configuration name="HouseRobber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HouseRobber" />
       <module name="Exercice-Pack-01" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuffleTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShuffleTheArray" />
+    <configuration name="RangeSumOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RangeSumOfBST" />
       <module name="Exercice-Pack-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HouseRobber" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.BaseballGame" />
         <item itemvalue="Application.ConcatenationOfArray" />
         <item itemvalue="Application.RangeSumOfBST" />
-        <item itemvalue="Application.ShuffleTheArray" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,8 @@
       <workItem from="1670468552380" duration="3411000" />
       <workItem from="1670520252631" duration="2396000" />
       <workItem from="1670590276175" duration="26513000" />
-      <workItem from="1670683535662" duration="26772000" />
+      <workItem from="1670683535662" duration="26861000" />
+      <workItem from="1671033825478" duration="9201000" />
     </task>
     <servers />
   </component>
