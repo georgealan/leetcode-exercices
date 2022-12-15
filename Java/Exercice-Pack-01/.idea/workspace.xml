@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HouseRobber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LongestCommonSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +77,7 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HouseRobber">
+  <component name="RunManager" selected="Application.LongestCommonSubsequence">
     <configuration name="BaseballGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BaseballGame" />
       <module name="Exercice-Pack-01" />
@@ -99,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RangeSumOfBST" />
+    <configuration name="LongestCommonSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LongestCommonSubsequence" />
       <module name="Exercice-Pack-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -115,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LongestCommonSubsequence" />
         <item itemvalue="Application.HouseRobber" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.BaseballGame" />
         <item itemvalue="Application.ConcatenationOfArray" />
-        <item itemvalue="Application.RangeSumOfBST" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +163,8 @@
       <workItem from="1670520252631" duration="2396000" />
       <workItem from="1670590276175" duration="26513000" />
       <workItem from="1670683535662" duration="26861000" />
-      <workItem from="1671033825478" duration="9201000" />
+      <workItem from="1671033825478" duration="9325000" />
+      <workItem from="1671115770322" duration="489000" />
     </task>
     <servers />
   </component>
