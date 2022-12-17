@@ -12,8 +12,8 @@ class MyQueue {
     private final ArrayDeque<Integer> output;
 
     public MyQueue() {
-        inputbuf = new ArrayDeque<Integer>();
-        output = new ArrayDeque<Integer>();
+        inputbuf = new ArrayDeque<>();
+        output = new ArrayDeque<>();
     }
 
     public void push(int x) {

@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ImplementQueueUsingStacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImplementQueueUsingStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImplementQueueUsingStacks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,9 +78,16 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BTreePrinterTest">
+  <component name="RunManager" selected="Application.EvaluateReversePolishNotation">
     <configuration name="BTreePrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BTreePrinterTest" />
+      <module name="Exercice-Pack-01" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvaluateReversePolishNotation" />
       <module name="Exercice-Pack-01" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,20 +114,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidParentheses" />
-      <module name="Exercice-Pack-01" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvaluateReversePolishNotation" />
         <item itemvalue="Application.BTreePrinterTest" />
         <item itemvalue="Application.RangeSumOfBST" />
         <item itemvalue="Application.LongestCommonSubsequence" />
         <item itemvalue="Application.HouseRobber" />
-        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,8 @@
       <workItem from="1671033825478" duration="9325000" />
       <workItem from="1671115770322" duration="546000" />
       <workItem from="1671117789630" duration="4554000" />
-      <workItem from="1671219064153" duration="920000" />
+      <workItem from="1671219064153" duration="969000" />
+      <workItem from="1671297232847" duration="1016000" />
     </task>
     <servers />
   </component>
