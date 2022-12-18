@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/739-Daily-Temperatures/Algorithm Study 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/739-Daily-Temperatures/Study Algorithm 1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DailyTemperatures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +74,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Java\Exercice-Pack-01\src\main\resources\739-Daily-Temperatures" />
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\main" />
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
@@ -168,7 +170,8 @@
       <workItem from="1671117789630" duration="4554000" />
       <workItem from="1671219064153" duration="969000" />
       <workItem from="1671297232847" duration="1095000" />
-      <workItem from="1671391895074" duration="8178000" />
+      <workItem from="1671391895074" duration="8240000" />
+      <workItem from="1671403010438" duration="258000" />
     </task>
     <servers />
   </component>
