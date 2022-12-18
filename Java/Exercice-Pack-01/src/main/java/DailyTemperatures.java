@@ -28,6 +28,13 @@ public class DailyTemperatures {
         System.out.println(Arrays.toString(result5));
     }
 
+    public static int[] dailyTemperatures(int[] temperatures) {
+        int[] result = new int[temperatures.length];
+
+        // TODO Solve this bug later.
+        return result;
+    }
+
     /**
      *
      * @param temperatures
