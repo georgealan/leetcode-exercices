@@ -53,3 +53,11 @@ public class PossibleBipartition {
         return true;
     }
 }
+
+/*
+    Esta solução é bastante eficiente em termos de tempo e espaço, pois usa uma busca em profundidade
+    iterativa para percorrer o grafo e marcar cada vértice com uma cor. Além disso, a complexidade de
+    tempo é O(V+E) e a complexidade de espaço é O(V), onde V é o número de vértices e E é o número de arestas.
+    Isso significa que o tempo de execução e o uso de memória são proporcionais ao tamanho do grafo, o que é
+    bastante eficiente
+ */

@@ -5,32 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/part02/FindIfPathExistsInGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/part02/PossibleBipartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BTreePrinterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/BTreePrinterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/BaseballGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConcatenationOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/ConcatenationOfArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/DailyTemperatures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/EvaluateReversePolishNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/EvaluateReversePolishNotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HouseRobber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/HouseRobber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImplementQueueUsingStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/ImplementQueueUsingStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeafSimilarTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/LeafSimilarTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ListNodeExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/ListNodeExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LongestCommonSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/LongestCommonSubsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MiddleOfTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/MiddleOfTheLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MinimumAverageDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/MinimumAverageDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OddEvenLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/OddEvenLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RangeSumOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/RangeSumOfBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RomanToInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/RomanToInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ShuffleTheArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/ShuffleTheArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortCharactersByFrequency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/SortCharactersByFrequency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StringHalvesAreAlike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/StringHalvesAreAlike.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TwoStringsAreClose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/TwoStringsAreClose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part01/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/MinStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part01/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part01/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part02/PossibleBipartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/PossibleBipartition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +80,7 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PossibleBipartition">
+  <component name="RunManager" selected="Application.ValidParentheses">
     <configuration name="BTreePrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="experiments.BTreePrinterTest" />
       <module name="Exercice-Pack-01" />
@@ -137,20 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangeSumOfBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part01.RangeSumOfBST" />
+    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part01.ValidParentheses" />
       <module name="Exercice-Pack-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.PossibleBipartition" />
         <item itemvalue="Application.DailyTemperatures" />
         <item itemvalue="Application.EvaluateReversePolishNotation" />
         <item itemvalue="Application.BTreePrinterTest" />
-        <item itemvalue="Application.RangeSumOfBST" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +187,9 @@
       <workItem from="1671403010438" duration="333000" />
       <workItem from="1671474485165" duration="4013000" />
       <workItem from="1671629091437" duration="171000" />
-      <workItem from="1671650580479" duration="788000" />
+      <workItem from="1671650580479" duration="877000" />
+      <workItem from="1671651509747" duration="92000" />
+      <workItem from="1675767592312" duration="6158000" />
     </task>
     <servers />
   </component>
