@@ -1,12 +1,12 @@
 package suportclasses;
 
-public abstract class SinglyLinkedList {
-    ListNode head;
-    ListNode tail;
+public class SinglyLinkedList {
+    private ListNode head;
+    private ListNode tail;
 
     public SinglyLinkedList() {
-        head = new ListNode(-1);
-        tail = head;
+        this.head = new ListNode(-1);
+        this.tail = head;
     }
 
     public SinglyLinkedList(int value) {
@@ -38,5 +38,13 @@ public abstract class SinglyLinkedList {
             curr = curr.next;
         }
         System.out.println();
+    }
+
+    public ListNode getHead() {
+        return head;
+    }
+
+    public ListNode getTail() {
+        return tail;
     }
 }

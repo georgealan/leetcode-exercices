@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/part02/ReverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/suportclasses/SinglyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/part02/MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part02/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/suportclasses/SinglyLinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +198,7 @@
       <workItem from="1671651509747" duration="92000" />
       <workItem from="1675767592312" duration="6356000" />
       <workItem from="1675788765979" duration="8672000" />
-      <workItem from="1675798635863" duration="6601000" />
+      <workItem from="1675798635863" duration="8441000" />
     </task>
     <servers />
   </component>
@@ -219,7 +220,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/part02/ReverseLinkedList.java</url>
-          <line>28</line>
+          <line>30</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>

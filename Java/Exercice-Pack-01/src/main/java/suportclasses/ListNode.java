@@ -1,6 +1,6 @@
 package suportclasses;
 
-public class ListNode extends SinglyLinkedList{
+public class ListNode {
     public int val;
     public ListNode next;
     public ListNode() {

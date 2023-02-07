@@ -1,12 +1,14 @@
 package part02;
 
 import suportclasses.ListNode;
-import suportclasses.SinglyLinkedList;
 
-// TODO Leetcode exercise: 206. Reverse Linked List
+/* TODO Leetcode exercise: 206. Reverse Linked List
+    Link:  https://leetcode.com/problems/reverse-linked-list/
+ */
 public class ReverseLinkedList {
     static ListNode head = new ListNode(1);
     static ListNode tail = head;
+
     public static void main(String[] args) {
         insertAtEnd(2);
         insertAtEnd(3);
