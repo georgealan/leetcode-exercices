@@ -2,12 +2,13 @@ package part01;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Stack;
 
 /*
 TODO Leetcode exercise: 20. Valid Parentheses
 */
 public class ValidParentheses {
-    static ArrayList<String> group = new ArrayList<>();
+//    static ArrayList<String> group = new ArrayList<>();
     public static void main(String[] args) {
         String input1 = "()";
         String input2 = "()[]{}";
@@ -18,39 +19,38 @@ public class ValidParentheses {
         String input7 = "]{[]}["; // False, count per same chars won't work.
         String input8 = "[}][{]"; // False too
 
-//        boolean result1 = isValidFirstAproach(input5);
-//        boolean result2 = isValid(input6);
-        boolean result4 = isValid(input5);
-//        boolean result3 = isValid(input2);
-        System.out.println(result4);
-//        System.out.println(result3);
-
-        char compare = '[';
-        char test = 93;
-        System.out.println("Character using code ascii: " + test);
-        if (test == compare) {
-            System.out.println("Charachters are equals!");
-        }
+        boolean result = isValid(input8);
+        System.out.println(result);
     }
 
     public static boolean isValid(String s) {
-        int lenght = s.length();
-        String regex = "(?<=\\G.{" + 2 + "})";
-        System.out.println("Lenght of string: " + lenght);
-        String[] groupChars = s.split(regex);
-        System.out.println("ArrayList before fill: " + group);
-        group = fillArrayList(groupChars);
-        System.out.println("ArrayList before: " + group);
-//        String[] groupChars = s.split("");
-        //                System.out.println("Match: " + oneChar);
-        group.removeIf(oneChar -> oneChar.matches("((?:\\[])|(?:\\{})|(?:\\()\\))"));
+        if (s.isBlank() || s.isEmpty()) { return false; }
+        Stack<Character> characters = new Stack<>();
 
-        System.out.println("ArrayList after matchs: " + group);
+        for (int i = 0; i < s.length(); i++) {
+            char specialChar = s.charAt(i);
 
+            if (specialChar == '(' || specialChar == '{' || specialChar == '[') {
+                characters.push(specialChar);
+            } else if (specialChar == ')' || specialChar == '}' || specialChar == ']') {
+                if (characters.isEmpty()) { return false; }
 
-        return true;
+                char pop = characters.pop();
+                if (!isValid(pop, specialChar)) { return false; }
+            } else {
+                return false;
+            }
+        }
+        return characters.isEmpty() ? true : false;
     }
 
+    public static boolean isValid(char left, char right) {
+        return (left == '(' && right == ')') || (left == '{' && right == '}') || (left == '[' && right == ']');
+    }
+
+
+    /*
+    FIRST TRY:
     static ArrayList<String> fillArrayList(String[] array) {
         ArrayList<String> arrayList = new ArrayList<>();
         for (String oneChar : array) {
@@ -70,6 +70,33 @@ public class ValidParentheses {
         }
         return true;
     }
+
+    public static boolean isValid(String s) {
+        if (s.isEmpty() || s.isBlank()) { return false; }
+
+        int lenght = s.length();
+        String regex = "(?<=\\G.{" + 2 + "})";
+        System.out.println("Lenght of string: " + lenght);
+        String[] groupChars = s.split(regex);
+        System.out.println("ArrayList before fill: " + group);
+        group = fillArrayList(groupChars);
+        System.out.println("ArrayList before: " + group);
+//        String[] groupChars = s.split("");
+        //                System.out.println("Match: " + oneChar);
+        group.removeIf(oneChar -> oneChar.matches("((?:\\[])|(?:\\{})|(?:\\()\\))"));
+
+        System.out.println("ArrayList after matchs: " + group);
+
+        String rest = String.join("", group);
+        System.out.println("String rest: " + rest);
+
+        groupChars = rest.split("");
+        group = fillArrayList(groupChars);
+        System.out.println("New ArrayList values: " + group);
+
+        return true;
+    }
+     */
 }
 
 /*
