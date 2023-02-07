@@ -48,6 +48,11 @@ public class ValidParentheses {
         return (left == '(' && right == ')') || (left == '{' && right == '}') || (left == '[' && right == ']');
     }
 
+/*
+EXPLANATION:
+Stack are LIFO (Last in first out), .pop() catch the last element in the stack, store in the variable,
+and remove the element in the stack list.
+ */
 
     /*
     FIRST TRY:
