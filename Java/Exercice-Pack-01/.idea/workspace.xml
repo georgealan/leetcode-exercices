@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/part02/MergeTwoSortedLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part02/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/suportclasses/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part02/MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/MergeTwoSortedLists.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkedList">
+  <component name="RunManager" selected="Application.MergeTwoSortedLists">
     <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part01.DailyTemperatures" />
       <module name="Exercice-Pack-01" />
@@ -89,9 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part01.EvaluateReversePolishNotation" />
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part02.MergeTwoSortedLists" />
       <module name="Exercice-Pack-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.ReverseLinkedList" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.PossibleBipartition" />
         <item itemvalue="Application.DailyTemperatures" />
-        <item itemvalue="Application.EvaluateReversePolishNotation" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +201,8 @@
       <workItem from="1671651509747" duration="92000" />
       <workItem from="1675767592312" duration="6356000" />
       <workItem from="1675788765979" duration="8672000" />
-      <workItem from="1675798635863" duration="8441000" />
+      <workItem from="1675798635863" duration="8531000" />
+      <workItem from="1677691911825" duration="11797000" />
     </task>
     <servers />
   </component>
@@ -218,11 +222,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="11" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/part02/ReverseLinkedList.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
