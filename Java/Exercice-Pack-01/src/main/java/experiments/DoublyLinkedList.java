@@ -73,13 +73,12 @@ public class DoublyLinkedList {
         ListNode temp = head;
 
         while (temp != null) {
-            temp = temp.next;
-            index--;
-
             if (index == 0) {
                 temp.val = val;
                 break;
             }
+            temp = temp.next;
+            index--;
         }
     }
 
@@ -92,9 +91,6 @@ public class DoublyLinkedList {
         ListNode newNode = new ListNode(val);
 
         while (temp != null) {
-            temp = temp.next;
-            index--;
-
             if (index == 0) {
                 temp.prev.next = newNode;
                 newNode.prev = temp.prev;
@@ -102,6 +98,8 @@ public class DoublyLinkedList {
                 temp.prev = newNode;
                 break;
             }
+            temp = temp.next;
+            index--;
         }
     }
 
@@ -112,6 +110,15 @@ public class DoublyLinkedList {
         head.prev = null;
     }
 
+    public void deleteAtMiddle(ListNode node) {
+        if (node == null) { return; }
+
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+        node.prev = null;
+        node.next = null;
+    }
+
     public void deleteAtTail() {
         if (head == null) { return; }
         ListNode temp = head;
@@ -119,39 +126,43 @@ public class DoublyLinkedList {
         while (temp.next != null) {
             temp = temp.next;
         }
-
         temp.prev.next = null;
     }
 
-    public void deleteByKey(int key) {
+    public void callDelete(ListNode node) {
+        if (node.prev == null) {
+            deleteAtHead();
+        } else if (node.next != null) {
+            deleteAtMiddle(node);
+        } else {
+            deleteAtTail();
+        }
+    }
 
+    public void deleteByKey(int key) {
+        if (head == null) { return; }
+        ListNode temp = head;
+
+        while (temp != null) {
+            if (temp.val == key) {
+                callDelete(temp);
+                break;
+            }
+            temp = temp.next;
+        }
     }
 
     public void deleteNodeAtIndex(int index) {
         if (head == null) { return; }
-
         ListNode temp = head;
 
         while (temp != null) {
             if (index == 0) {
-                if (temp.prev == null) {
-                    deleteAtHead();
-                    break;
-                }
-
-                if (temp.next != null) {
-                    temp.prev.next = temp.next;
-                    temp.next.prev = temp.prev;
-                    temp.prev = null;
-                    temp.next = null;
-                    break;
-                } else {
-                    deleteAtTail();
-                    break;
-                }
+                callDelete(temp);
+                break;
             }
-            index--;
             temp = temp.next;
+            index--;
         }
     }
 
@@ -216,8 +227,18 @@ class Main {
         System.out.println("\nBefore delete at tail by index");
         doublyLinkedList.printNode();
         System.out.println("After delete at tail by index");
-        doublyLinkedList.deleteNodeAtIndex(10);
+        doublyLinkedList.deleteNodeAtIndex(8);
         doublyLinkedList.printNode();
+        doublyLinkedList.getNodeValueByKey(32);
+        doublyLinkedList.getNodeValueByKey(34);
+
+        System.out.println("\nBefore delete by the key");
+        doublyLinkedList.printNode();
+        System.out.println("After delete by the key");
+        doublyLinkedList.deleteByKey(8);
+        doublyLinkedList.printNode();
+        doublyLinkedList.getNodeValueByKey(9);
+        doublyLinkedList.getNodeValueByKey(7);
 
     }
 }

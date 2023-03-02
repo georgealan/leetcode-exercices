@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/experiments/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/experiments/DoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/experiments/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/experiments/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +211,7 @@
       <workItem from="1675788765979" duration="8672000" />
       <workItem from="1675798635863" duration="8531000" />
       <workItem from="1677691911825" duration="23213000" />
-      <workItem from="1677766276217" duration="25594000" />
+      <workItem from="1677766276217" duration="29899000" />
     </task>
     <servers />
   </component>
