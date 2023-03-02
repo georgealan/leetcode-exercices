@@ -2,10 +2,19 @@ package part02;
 
 import suportclasses.ListNode;
 
+/*
+ TODO Leetcode exercise: 707. Design Linked List
+  Link: https://leetcode.com/problems/design-linked-list/description/
+ */
+
 class MyLinkedList {
     ListNode head;
     ListNode tail;
     public MyLinkedList() {
+        head = new ListNode(-1);
+        tail = new ListNode(-1);
+        head.next = tail;
+        tail.prev = head;
     }
 
     public int get(int index) {
@@ -13,14 +22,21 @@ class MyLinkedList {
     }
 
     public void addAtHead(int val) {
-        head = new ListNode(val);
-        tail = head;
+        ListNode newNode = new ListNode(val);
+        newNode.prev = head;
+        newNode.next = head.next;
+
+        head.next.prev = newNode;
+        head.next = newNode;
     }
 
     public void addAtTail(int val) {
-        tail.next = new ListNode(val);
-        tail.prev = tail;
-        tail = tail.next;
+        ListNode newNode = new ListNode(val);
+        newNode.next = tail;
+        newNode.prev = tail.prev;
+
+        tail.prev.next = newNode;
+        tail.prev = newNode;
     }
 
     public void addAtIndex(int index, int val) {
@@ -46,11 +62,9 @@ public class DesignLinkedList {
         obj.addAtHead(1);
         obj.addAtTail(2);
         obj.addAtTail(3);
-        obj.addAtTail(4);
-        printLinkedList(obj.head);
 
-        obj.addAtIndex(1, 36);
-        printLinkedList(obj.head);
+        printLinkedList(obj.head.next);
+
     }
 
     public static void printLinkedList(ListNode head) {

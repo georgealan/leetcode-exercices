@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/experiments/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/suportclasses/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,7 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignLinkedList">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DesignLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part02.DesignLinkedList" />
       <module name="Exercice-Pack-01" />
@@ -93,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part02.MergeTwoSortedLists" />
+    <configuration name="DoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiments.DoublyLinkedList" />
       <module name="Exercice-Pack-01" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="part02.*" />
+          <option name="PATTERN" value="experiments.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PossibleBipartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part02.PossibleBipartition" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="experiments.Main" />
+      <module name="Exercice-Pack-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeTwoSortedLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part02.MergeTwoSortedLists" />
       <module name="Exercice-Pack-01" />
       <extension name="coverage">
         <pattern>
@@ -132,26 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part01.ValidParentheses" />
-      <module name="Exercice-Pack-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.DesignLinkedList" />
         <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.ReverseLinkedList" />
-        <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.PossibleBipartition" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +211,8 @@
       <workItem from="1675767592312" duration="6356000" />
       <workItem from="1675788765979" duration="8672000" />
       <workItem from="1675798635863" duration="8531000" />
-      <workItem from="1677691911825" duration="18851000" />
+      <workItem from="1677691911825" duration="23213000" />
+      <workItem from="1677766276217" duration="25594000" />
     </task>
     <servers />
   </component>
@@ -229,16 +232,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="11" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
