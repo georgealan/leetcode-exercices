@@ -8,63 +8,160 @@ import suportclasses.ListNode;
  */
 
 class MyLinkedList {
-    ListNode head;
-    ListNode tail;
+    ListNode node = null;
     public MyLinkedList() {
-        head = new ListNode(-1);
-        tail = new ListNode(-1);
-        head.next = tail;
-        tail.prev = head;
-    }
 
+    }
     public int get(int index) {
-        return  0;
+        ListNode temp = node;
+
+        while (temp != null) {
+            if (index == 0) {
+                System.out.println(temp.val);
+                return temp.val;
+            }
+            temp = temp.next;
+            index--;
+        }
+        return -1;
     }
 
     public void addAtHead(int val) {
         ListNode newNode = new ListNode(val);
-        newNode.prev = head;
-        newNode.next = head.next;
 
-        head.next.prev = newNode;
-        head.next = newNode;
+        if (node == null) {
+            newNode.prev = null;
+            newNode.next = null;
+            node = newNode;
+        } else {
+            newNode.prev = null;
+            newNode.next = node;
+            node.prev = newNode;
+            node = newNode;
+        }
     }
 
     public void addAtTail(int val) {
         ListNode newNode = new ListNode(val);
-        newNode.next = tail;
-        newNode.prev = tail.prev;
 
-        tail.prev.next = newNode;
-        tail.prev = newNode;
+        if (node == null) {
+            addAtHead(val);
+        } else {
+            ListNode last = node;
+
+            while (last.next != null) {
+                last = last.next;
+            }
+
+            last.next = newNode;
+            newNode.prev = last;
+            newNode.next = null;
+        }
     }
 
     public void addAtIndex(int index, int val) {
-        int count = 0;
+        if (node == null) {
+            addAtHead(val);
+        }
 
-        while (head != null && count < index) {
-            count++;
-            head = head.next;
-            if (count == index) {
-                head.prev = new ListNode(val);
+        ListNode temp = node;
+        ListNode newNode = new ListNode(val);
+
+        while (temp != null) {
+            if (index == 0) {
+                temp.prev.next = newNode;
+                newNode.prev = temp.prev;
+                newNode.next = temp;
+                temp.prev = newNode;
+                break;
             }
+            temp = temp.next;
+            index--;
         }
     }
 
     public void deleteAtIndex(int index) {
+        if (node == null) { return; }
+        ListNode temp = node;
 
+        while (temp != null) {
+            if (index == 0) {
+                callDelete(temp);
+                break;
+            }
+            temp = temp.next;
+            index--;
+        }
+    }
+
+    public void callDelete(ListNode node) {
+        if (node.prev == null) {
+            deleteAtHead();
+        } else if (node.next != null) {
+            deleteAtMiddle(node);
+        } else {
+            deleteAtTail();
+        }
+    }
+
+    public void deleteAtHead() {
+        if (node == null) { return; }
+
+        if (node.prev == null && node.next == null) {
+            node.val = -1;
+            return;
+        }
+
+        node = node.next;
+        node.prev = null;
+    }
+
+    public void deleteAtMiddle(ListNode node) {
+        if (node == null) { return; }
+
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
+        node.prev = null;
+        node.next = null;
+    }
+
+    public void deleteAtTail() {
+        if (node == null) { return; }
+        ListNode temp = node;
+
+        while (temp.next != null) {
+            temp = temp.next;
+        }
+        temp.prev.next = null;
     }
 }
 public class DesignLinkedList {
     public static void main(String[] args) {
-        MyLinkedList obj = new MyLinkedList();
+        MyLinkedList myLinkedList = new MyLinkedList();
 
-        obj.addAtHead(1);
-        obj.addAtTail(2);
-        obj.addAtTail(3);
+        /*myLinkedList.addAtHead(1);
+        myLinkedList.addAtTail(3);
+        myLinkedList.addAtIndex(1,2);
+        myLinkedList.get(1);
+        myLinkedList.deleteAtIndex(1);
+        myLinkedList.get(1);*/
 
-        printLinkedList(obj.head.next);
+        /*myLinkedList.addAtHead(1);
+        myLinkedList.deleteAtIndex(0);*/
 
+        myLinkedList.addAtHead(7);
+        myLinkedList.addAtHead(2);
+        myLinkedList.addAtHead(1);
+        myLinkedList.addAtIndex(3,0);
+        myLinkedList.deleteAtIndex(2);
+        myLinkedList.addAtHead(6);
+        myLinkedList.addAtTail(4);
+        myLinkedList.get(4);
+        myLinkedList.addAtHead(4);
+        myLinkedList.addAtIndex(5,0);
+        myLinkedList.addAtHead(6);
+
+        printLinkedList(myLinkedList.node);
     }
 
     public static void printLinkedList(ListNode head) {

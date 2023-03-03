@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/experiments/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/experiments/DoublyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/experiments/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/experiments/DoublyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/experiments/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/experiments/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,7 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.DesignLinkedList">
     <configuration name="DesignLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part02.DesignLinkedList" />
       <module name="Exercice-Pack-01" />
@@ -148,9 +148,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DoublyLinkedList" />
-        <item itemvalue="Application.DesignLinkedList" />
         <item itemvalue="Application.MergeTwoSortedLists" />
         <item itemvalue="Application.ReverseLinkedList" />
       </list>
@@ -211,7 +211,7 @@
       <workItem from="1675788765979" duration="8672000" />
       <workItem from="1675798635863" duration="8531000" />
       <workItem from="1677691911825" duration="23213000" />
-      <workItem from="1677766276217" duration="29899000" />
+      <workItem from="1677766276217" duration="35876000" />
     </task>
     <servers />
   </component>
@@ -231,6 +231,24 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="11" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java</url>
+          <line>106</line>
+          <properties class="part02.MyLinkedList" method="deleteAtHead">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java</url>
+          <line>82</line>
+          <properties class="part02.MyLinkedList" method="deleteAtIndex">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
