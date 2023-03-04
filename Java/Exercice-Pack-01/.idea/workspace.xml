@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/part02/DesignBrowserHistory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/MyLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +211,7 @@
       <workItem from="1677691911825" duration="23213000" />
       <workItem from="1677766276217" duration="36196000" />
       <workItem from="1677949263808" duration="3659000" />
-      <workItem from="1677956988241" duration="5715000" />
+      <workItem from="1677956988241" duration="6860000" />
     </task>
     <servers />
   </component>
