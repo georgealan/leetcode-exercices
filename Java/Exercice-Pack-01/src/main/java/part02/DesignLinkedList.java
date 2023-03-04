@@ -9,21 +9,25 @@ import suportclasses.ListNode;
 
 class MyLinkedList {
     ListNode node = null;
+    int lenght;
     public MyLinkedList() {
-
+        this.lenght = 0;
     }
     public int get(int index) {
-        ListNode temp = node;
-
-        while (temp != null) {
-            if (index == 0) {
-                System.out.println(temp.val);
-                return temp.val;
+        System.out.println("In get(), value of index before: " + index);
+        System.out.println("At get() method, Lenght value: " + lenght);
+        if (index < lenght && index >= 0) {
+            ListNode temp = node;
+            while (index > 0) {
+                temp = temp.next;
+                index--;
             }
-            temp = temp.next;
-            index--;
+            System.out.println("In get(), value of index: " +
+                    index + " value of return: " + temp.val);
+            return temp.val;
+        } else {
+            return -1;
         }
-        return -1;
     }
 
     public void addAtHead(int val) {
@@ -33,11 +37,13 @@ class MyLinkedList {
             newNode.prev = null;
             newNode.next = null;
             node = newNode;
+            lenght++;
         } else {
             newNode.prev = null;
             newNode.next = node;
             node.prev = newNode;
             node = newNode;
+            lenght++;
         }
     }
 
@@ -56,12 +62,21 @@ class MyLinkedList {
             last.next = newNode;
             newNode.prev = last;
             newNode.next = null;
+            lenght++;
         }
     }
 
     public void addAtIndex(int index, int val) {
-        if (node == null) {
+        if (index > lenght) { return; }
+
+        if (node == null || index == 0) {
             addAtHead(val);
+            return;
+        }
+
+        if (index == lenght) {
+            addAtTail(val);
+            return;
         }
 
         ListNode temp = node;
@@ -73,6 +88,7 @@ class MyLinkedList {
                 newNode.prev = temp.prev;
                 newNode.next = temp;
                 temp.prev = newNode;
+                lenght++;
                 break;
             }
             temp = temp.next;
@@ -82,15 +98,17 @@ class MyLinkedList {
 
     public void deleteAtIndex(int index) {
         if (node == null) { return; }
-        ListNode temp = node;
+        if (index < lenght && index >= 0) {
+            ListNode temp = node;
 
-        while (temp != null) {
-            if (index == 0) {
-                callDelete(temp);
-                break;
+            while (temp != null) {
+                if (index == 0) {
+                    callDelete(temp);
+                    break;
+                }
+                temp = temp.next;
+                index--;
             }
-            temp = temp.next;
-            index--;
         }
     }
 
@@ -107,13 +125,15 @@ class MyLinkedList {
     public void deleteAtHead() {
         if (node == null) { return; }
 
-        if (node.prev == null && node.next == null) {
-            node.val = -1;
-            return;
+        if (node.next == null && node.prev == null) {
+            node = null;
+            lenght--;
+        } else {
+            node = node.next;
+            node.prev = null;
+            lenght--;
         }
-
-        node = node.next;
-        node.prev = null;
+        System.out.println("Value of lenght after delete at head: " + lenght);
     }
 
     public void deleteAtMiddle(ListNode node) {
@@ -123,6 +143,8 @@ class MyLinkedList {
         node.next.prev = node.prev;
         node.prev = null;
         node.next = null;
+        lenght--;
+        System.out.println("Value of lenght after delete at middle: " + lenght);
     }
 
     public void deleteAtTail() {
@@ -133,35 +155,37 @@ class MyLinkedList {
             temp = temp.next;
         }
         temp.prev.next = null;
+        lenght--;
+        System.out.println("Value of lenght after delete at tail: " + lenght);
     }
 }
 public class DesignLinkedList {
     public static void main(String[] args) {
         MyLinkedList myLinkedList = new MyLinkedList();
 
-        /*myLinkedList.addAtHead(1);
-        myLinkedList.addAtTail(3);
-        myLinkedList.addAtIndex(1,2);
-        myLinkedList.get(1);
-        myLinkedList.deleteAtIndex(1);
-        myLinkedList.get(1);*/
-
-        /*myLinkedList.addAtHead(1);
-        myLinkedList.deleteAtIndex(0);*/
-
         myLinkedList.addAtHead(7);
         myLinkedList.addAtHead(2);
         myLinkedList.addAtHead(1);
-        myLinkedList.addAtIndex(3,0);
+
+        printLinkedList(myLinkedList.node);
+
+        myLinkedList.addAtIndex(3, 0);
+        printLinkedList(myLinkedList.node);
+
         myLinkedList.deleteAtIndex(2);
+        printLinkedList(myLinkedList.node);
+
         myLinkedList.addAtHead(6);
         myLinkedList.addAtTail(4);
+        printLinkedList(myLinkedList.node);
+
         myLinkedList.get(4);
         myLinkedList.addAtHead(4);
-        myLinkedList.addAtIndex(5,0);
+        myLinkedList.addAtIndex(5, 0);
         myLinkedList.addAtHead(6);
 
         printLinkedList(myLinkedList.node);
+
     }
 
     public static void printLinkedList(ListNode head) {

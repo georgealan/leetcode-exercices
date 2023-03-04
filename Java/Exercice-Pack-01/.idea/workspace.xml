@@ -211,7 +211,9 @@
       <workItem from="1675788765979" duration="8672000" />
       <workItem from="1675798635863" duration="8531000" />
       <workItem from="1677691911825" duration="23213000" />
-      <workItem from="1677766276217" duration="35876000" />
+      <workItem from="1677766276217" duration="36196000" />
+      <workItem from="1677949263808" duration="3659000" />
+      <workItem from="1677956988241" duration="5715000" />
     </task>
     <servers />
   </component>
@@ -231,24 +233,6 @@
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="11" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java</url>
-          <line>106</line>
-          <properties class="part02.MyLinkedList" method="deleteAtHead">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/part02/DesignLinkedList.java</url>
-          <line>82</line>
-          <properties class="part02.MyLinkedList" method="deleteAtIndex">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
