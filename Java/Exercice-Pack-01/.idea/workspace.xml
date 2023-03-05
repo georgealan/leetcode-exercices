@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f572942c-10fc-4054-8812-e8443fd7a5cf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/part02/DesignBrowserHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Exercices-Descriptions/1472. Design Browser History.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/part02/DesignBrowserHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part02/DesignBrowserHistory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part02/DesignLinkedList.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +80,20 @@
       <recent name="D:\Projects\Studies\Algorithms\leetcode-exercices\Exercice-Pack-01\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DesignLinkedList">
+  <component name="RunManager" selected="Application.DesignBrowserHistory">
+    <configuration name="DesignBrowserHistory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="part02.DesignBrowserHistory" />
+      <module name="Exercice-Pack-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="part02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DesignLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="part02.DesignLinkedList" />
       <module name="Exercice-Pack-01" />
@@ -131,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="part02.ReverseLinkedList" />
-      <module name="Exercice-Pack-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="part02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DesignBrowserHistory" />
         <item itemvalue="Application.DesignLinkedList" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.DoublyLinkedList" />
         <item itemvalue="Application.MergeTwoSortedLists" />
-        <item itemvalue="Application.ReverseLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +213,7 @@
       <workItem from="1677691911825" duration="23213000" />
       <workItem from="1677766276217" duration="36196000" />
       <workItem from="1677949263808" duration="3659000" />
-      <workItem from="1677956988241" duration="6860000" />
+      <workItem from="1677956988241" duration="17403000" />
     </task>
     <servers />
   </component>
